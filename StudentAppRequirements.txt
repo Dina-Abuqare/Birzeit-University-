@@ -4,11 +4,11 @@ shows up
 Login Activity : Login Feature  with shared preferences .
 
 
-Admin Main page : View/Update/Delete/Search/Add student and teacher  , Create student and teacher schedules ,manage students capacity .send memo, academic calender .
+Admin Main page : View/Update/Delete/Search/Add student and teacher  , Create student and teacher schedules ,manage students capacity .send memo.
 
-Teacher Main page: Send email /contact  parents, view schedule ,Send assignments ,send marks to students ,record attendance ,send memo ,academic calender .
+Teacher Main page: Send email /contact  parents, view schedule ,Send assignments ,send marks to students ,record attendance ,send memo .
 
-Student Main page: view marks ,submit assignments ,view calender ,send memo ,academic calender ,academic calender.
+Student Main page: view marks ,submit assignments ,view calender ,send memo ,academic calender .
 
 
 
