@@ -1,91 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/logo"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextName"
-        android:layout_width="0dp"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Search Product"
-        app:layout_constraintTop_toBottomOf="@id/logo"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
-
-    <Spinner
-        android:id="@+id/spinnerCategory"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/editTextName"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <RadioGroup
-        android:id="@+id/radioGroupSkin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@id/spinnerCategory"
-        app:layout_constraintStart_toStartOf="parent">
-        <RadioButton
-            android:id="@+id/radioOily"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Oily" />
-
-        <RadioButton
-            android:id="@+id/radioDry"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Dry" />
-
-        <RadioButton
-            android:id="@+id/radioNormal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Normal" />
-    </RadioGroup>
-
-    <CheckBox
-        android:id="@+id/checkBoxOrganic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Organic"
-        app:layout_constraintTop_toBottomOf="@id/radioGroupSkin"
-        app:layout_constraintStart_toStartOf="parent"/>
-
-    <CheckBox
-        android:id="@+id/checkBoxCrueltyFree"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cruelty-Free"
-        app:layout_constraintTop_toBottomOf="@id/checkBoxOrganic"
-        app:layout_constraintStart_toStartOf="parent"/>
-
-    <Switch
-        android:id="@+id/switchExpress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Express Delivery?"
-        app:layout_constraintTop_toBottomOf="@id/checkBoxCrueltyFree"
-        app:layout_constraintStart_toStartOf="parent"/>
-
-    <Button
-        android:id="@+id/buttonSearch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Search"
-        app:layout_constraintTop_toBottomOf="@id/switchExpress"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

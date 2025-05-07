@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.assignment1"
+    namespace = "com.example.schoolsystem"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.assignment1"
-        minSdk = 24
+        applicationId = "com.example.schoolsystem"
+        minSdk = 25
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -32,20 +32,12 @@ android {
 }
 
 dependencies {
-
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation(libs.firebase.crashlytics.buildtools)
+    implementation("com.airbnb.android:lottie:6.0.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-    implementation(libs.gson)
-
-
-
-
-
-
 }
