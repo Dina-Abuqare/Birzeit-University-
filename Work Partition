@@ -1,0 +1,51 @@
+📦 Division of Work (4 Members):
+
+
+👤 Member 1: Common + Registrar Activities
+SplashActivity (Welcome screen)
+
+LoginActivity (Role-based login logic)
+
+AddStudentActivity
+
+AddTeacherActivity
+
+SendMemoActivity (Registrar)
+
+Involves ConstraintLayout, DatePicker (memo), EditTexts, Buttons, and Volley for sending user data to DB.
+
+👤 Member 2: Registrar Scheduling & Capacity
+CreateTeacherScheduleActivity
+
+CreateStudentScheduleActivity
+
+ManageClassCapacityActivity (Update max students per class)
+
+ViewAllSchedulesActivity (optional bonus)
+
+Use Spinners, RecyclerViews, Dialogs. Involves SQL write/read and schedule logic.
+
+👤 Member 3: Teacher Features
+SendAssignmentActivity
+
+SendMarksActivity
+
+RecordAttendanceActivity
+
+SendMemoActivity (Teacher)
+
+ContactParentsActivity (email form)
+
+RecyclerView (for student list), CheckBoxes (attendance), Email Intent, and EditTexts.
+
+👤 Member 4: Student Features
+SubmitAssignmentActivity
+
+ViewMarksActivity
+
+ViewScheduleActivity
+
+SendMemoActivity (Student)
+
+ListView (marks), File upload (assignment), CardView (schedule). Involves DB read/write.
+
